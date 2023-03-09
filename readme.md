@@ -8,7 +8,7 @@
   ```sh
   composer create-project laravel/laravel:^9.0 . 
   ```  
-You can install any version of laravel project by replacing rhe version name.
+You can install any version of laravel project by replacing the version name.
 composer create-project laravel/laravel:^<b>version</b> projectname
   
 ## Database Migration(s)
