@@ -11,13 +11,11 @@
   ```sh
   php artisan make:seeder IamSeeder
   ```
-  
-  * Run Seeder(s)
+* Run Seeder(s)
   ```sh
   php artisan db:seed
-  ```
-  
-  * Run A Specific Seeder 
+  ```  
+* Run A Specific Seeder 
   ```sh
   php artisan db:seed --class=SeederFileName
   ```
