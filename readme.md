@@ -25,14 +25,14 @@ You can install any version of laravel project by replacing the version only.
   php artisan make:controller IamController --invokable 
   ```  
 <b>Note:</b> When registering routes for single action controllers, it accepts two parameters (url & the name of the controller) only.<br/>
-<code> Route::get('/uri_name', IamController::class); </code> 
+<code> Route::get('/uri_iam', IamController::class); </code> 
 
 * Make resource controller via artisan command 
   ```sh
   php artisan make:controller IamController --resource 
   ```  
 <b>Note:</b> When registering routes for resource controllers, it accepts two parameters (url & the name of the controller) only.<br/>
-<code> Route::get('/uri_name', IamController::class); </code>   
+<code> Route::get('/uri_iam', IamController::class); </code>   
   
 * Make resource controller specifying the Model instance via artisan command 
   ```sh
