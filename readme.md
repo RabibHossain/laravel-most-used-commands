@@ -1,10 +1,10 @@
 ## Install Laravel Project
 
-* create a new Laravel project via the Composer create-project command 
+* Create a new Laravel project via the Composer create-project command 
   ```sh
   composer create-project laravel/laravel:^9.0 projectname
   ```
-* create a new Laravel project via the Composer create-project command inside a folder
+* Create a new Laravel project via the Composer create-project command inside a folder
   ```sh
   composer create-project laravel/laravel:^9.0 . 
   ```  
