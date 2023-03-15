@@ -87,7 +87,7 @@ You can install any version of laravel project by replacing the version only.
   ```
 - [x] Migrate A Specific Table & Remove Data From That Table Only
   ```sh
-  php artisan migrate:refresh --path=database/migrations/2014_10_12_000000_create_users_table.php
+  php artisan migrate:refresh --path=database/migrations/2023_10_03_009502_create_users_table.php
   ```
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
