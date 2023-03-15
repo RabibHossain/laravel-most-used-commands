@@ -53,7 +53,25 @@ You can install any version of laravel project by replacing the version only.
   ```     
 <p align="right">(<a href="#readme-top">back to top</a>)</p>  
 
-## Database Migration(s)
+## Make Model
+
+- [x] Create an Eloquent Model via artisan command ☟
+  ```sh
+  php artisan make:model ModelName
+  ```     
+- [x] Create an Eloquent Model generating migration via artisan command ☟
+  ```sh
+  php artisan make:model Flight --m
+  
+  Or
+  
+  php artisan make:model Flight --migration
+  ```     
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>  
+
+## Database Migration
 
 * Migrate All The Tables
   ```sh
