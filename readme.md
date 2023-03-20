@@ -107,21 +107,25 @@ You can install any version of laravel project by replacing the version only.
 
 ## Database Migration
 
-- [x] Migrate All The Tables
+- [x] Migrate All The Tables ☟
   ```sh
   php artisan migrate
   ```
-- [x] Migrate All The Tables & Remove All Data
+- [x] Migrate All The Tables & Remove All Data ☟
   ```sh
   php artisan migrate:refresh
   ```
-- [x] Migrate All The Tables & Remove All Data & Run Seeder
+- [x] Migrate All The Tables & Remove All Data & Run Seeder ☟
   ```sh
   php artisan migrate:refresh --seed
   ```
-- [x] Migrate A Specific Table & Remove Data From That Table Only
+- [x] Migrate A Specific Table & Remove Data From That Table Only ☟
   ```sh
   php artisan migrate:refresh --path=database/migrations/2023_10_03_009502_create_users_table.php
+  ```
+- [x] Migrate A Specific Table to add/update/delete a column ☟
+  ```sh
+  php artisan migrate --path=database/migrations/2023_10_03_009502_add_phone_to_users_table.php
   ```
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
