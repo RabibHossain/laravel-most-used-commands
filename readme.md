@@ -145,3 +145,23 @@ You can install any version of laravel project by replacing the version only.
   php artisan db:seed --class=SeederFileName
   ```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Validator Rules
+
+* Image Dimension Validation Rules 
+  ```sh
+  # required image
+  'icon' => 'required|image'
+  # required image with file extentions
+  'icon' => 'required|image|mimes:png,webp,svg'
+  # required image with fixed size dimension pixels
+  'icon' => 'required|image|mimes:png,webp,svg|dimensions:width=512,height=512'
+  # required image with fixed size dimension ratio
+  'icon' => 'required|image|mimes:png,webp,svg|dimensions:ratio=2/1'
+  # required image with maximum size of dimension pixels
+  'icon' => 'required|image|mimes:png,webp,svg|dimensions:max_width=512,max_width=512'
+  # required image with minimum size of dimension pixels
+  'icon' => 'required|image|mimes:png,webp,svg|dimensions:min_width=512,min_width=512'
+  ```
+
